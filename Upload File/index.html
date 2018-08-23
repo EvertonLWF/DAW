@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<title>Upload file</title>
+</head>
+<body>
+
+
+
+	<form action="php/foto.php" method="POST" enctype="multipart/form-data" id="form">
+		<h4 id="h4">Escolha uma imagem:</h4><br>
+		<input type="file" name="foto" id="arquivo"><br><br>
+		<input type="hidden" name="tamanho" value="200000">
+		<input type="submit" name="salvar">
+	</form>
+	<button class="btn">Add Foto</button>
+
+
+
+
+
+	<script type="text/javascript" src="script/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
