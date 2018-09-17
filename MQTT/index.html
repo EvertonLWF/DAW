@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>MQTT</title>
+</head>
+<body>
+	<form class="sub" action="subscribe.php" method="POST">
+		<div id="sub" >
+			<h3>Subscribe</h3><br><br>
+			<input type="text" name="client_id" placeholder="Client_id"><br><br><br>
+			<input type="text" name="topic" placeholder="Topic"><br><br><br>
+			<input type="text" name="server" placeholder="Server"><br><br><br>
+			<input type="text" name="port" placeholder="Port"><br><br><br>
+			<input type="text" name="user_name" placeholder="User_name"><br><br><br>
+			<input type="Password" name="password" placeholder="Password"><br><br><br>
+			<input type="submit" id="send" value="Enviar">
+		</div>
+	</form>
+	<form class="pub" action="publish.php" method="POST">
+		<div id="pub">
+			<h4>Publish</h4><br><br>
+			<input type="text" name="client_id" placeholder="Client_id"><br><br><br>
+			<input type="text" name="topic" placeholder="Topic"><br><br><br>
+			<input type="text" name="server" placeholder="Server"><br><br><br>
+			<input type="text" name="port" placeholder="Port"><br><br><br>
+			<input type="text" name="user_name" placeholder="User_name"><br><br><br>
+			<input type="Password" name="password" placeholder="Password"><br><br><br>
+			<input type="text" name="msn" placeholder="Menssage"><br><br><br>
+			<input type="submit" id="send" value="Enviar">
+		</div>
+	</form>
+	
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

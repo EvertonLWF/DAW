@@ -1,0 +1,20 @@
+.pub{
+	float: left;
+	position: relative;
+	margin: 10px;
+	padding: 25px;
+	border-style: solid;
+	border-color: green;
+	border-width: 5px; 
+	background-color: #DEDEDE;
+}
+.sub{
+	float: right;
+	position: relative;
+	margin: 10px;
+	padding: 25px;
+	border-style: solid;
+	border-color: blue;
+	border-width: 5px; 
+	background-color: #DEDEDE;
+}
